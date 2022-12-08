@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.logo{
+    margin: 0px 30px;
+    color: black;
+font-size: 20px;
+position: relative;
+top: 20px;
+}
+
+
+.navbar-itens{
+	margin: 0;
+	padding-left: 0;
+	display: flex;
+	justify-content: center;
+}
+.navbar-itens li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+
+.navbar-itens a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.input-search{
+    background: #F2F2F2;
+    border-radius: 50px;
+    height: 26px;
+    position: relative;
+bottom: 6px;
+left: 40px;
+    border: none;
+    
+}
+
+.car{
+    position: relative;
+    left: 50px;
+    bottom: 6px;
+}
+
+.container-img img{
+    height: 580px;
+    position: relative;
+    max-width: 950px;
+    
+}
+.text{
+  
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+width: 100%;
+background-color: white;
+height: 600px;
+}
+
+.row{
+    background-color: #F3F3F3;
+    width: 190vh;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  top: 120px;
+  
+    margin: 0 auto;
+}
+
+.box{
+  display: flex;
+    background-color: grey;
+    position: relative;
+top: 120px;    
+}
+
+.box2{
+    color: white;
+    background-color: grey;
+    display: flex;
+}
+
+
+.box3{
+    display: flex;
+}
+
+
+.sect{
+    display: flex    ;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 220px;
+}
+
+
+.sect-imagem{
+    width: 100%;
+}
