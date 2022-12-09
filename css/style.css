@@ -14,7 +14,14 @@ position: relative;
 top: 20px;
 }
 
+.btn2{
+    border: none;
+    border: 2px solid #1F1F1F;
+border-radius: 12px;
+width: 200px;
+height: 40px;
 
+}
 .navbar-itens{
 	margin: 0;
 	padding-left: 0;
@@ -76,46 +83,185 @@ height: 600px;
 }
 
 .row{
-    background-color: #F3F3F3;
-    width: 190vh;
-    height: 400px;
-    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-  top: 120px;
-  
-    margin: 0 auto;
+    padding: 120px;
+    background-color: #F3F3F3;
+margin: 0 auto;
+width: 90vw;
 }
 
 .box{
-  display: flex;
-    background-color: grey;
-    position: relative;
-top: 120px;    
+    display: flex;
+    padding: 80px;
+}
+
+
+.box img{
+    object-fit: fill;
+    object-position: 30px;
+   max-width: 700px;
+   max-height: 400px;
 }
 
 .box2{
-    color: white;
-    background-color: grey;
     display: flex;
+    flex-direction: row-reverse
 }
 
+
+
+
+
+
+.img-box2{
+
+    max-height: 400px;
+    object-fit: cover;
+    object-position: 6px;
+
+}
+
+.box2-img{
+    max-width: 444px;
+    max-height: 400px;
+}
 
 .box3{
     display: flex;
+    padding: 80px;
+}
+
+.box3 img{
+    max-height: 400px;
 }
 
 
-.sect{
-    display: flex    ;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    top: 220px;
-}
-
-
-.sect-imagem{
+.aside-box{
+    height: 400px;
     width: 100%;
+    background-image: url(/img/Image.png);
+  background-size: cover;
+  background-position: 0 122px 12px;
+}
+
+.aside-box h3{
+    color: white;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+position: relative;
+bottom: 15px;
+}
+
+.section-maps{
+    height: 800px;
+    padding: 120px;
+    display: flex;
+}
+
+
+.section-img  img{
+   max-width: 800px;
+max-height: 560px;
+
+}
+
+.form{
+    width: 500px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    background-color: #F3F3F3;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.form h3{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+position: relative;
+bottom: 30px;
+right: 20px;}
+
+.form input[type=text], input[type=email]{
+    padding-left: 10px;
+    border: none;
+    background: #FFFFFF;
+border-radius: 12px;
+margin: 15px 0;
+width: 400px;
+height:40px ;
+position: relative;
+bottom: 30px;
+}
+
+textarea{
+    padding-left: 10px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: 200px;
+    width: 400px;
+}
+
+.check{
+   color: #969696;;
+    padding: 10px;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+
+.btn{
+    border: 2px solid #1F1F1F;
+border-radius: 12px;
+height: 60px;
+width: 400px;
+}
+
+footer{
+   background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social li{
+    list-style: none;
+}
+
+.text-finale{
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 20px;
+}
+
+.text-finale .p{
+    font-family: 'Gilroy';
+font-style: normal;
+   color: #1F1F1F;
+   
+
 }
